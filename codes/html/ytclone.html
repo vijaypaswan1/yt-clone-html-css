@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../css/genral.css">
         <style>
             .head-bar{
+                align-items: center;
                 justify-content: space-between;
                 position: fixed;
                 display: flex;
@@ -17,23 +18,86 @@
                 top: 0px;
                 left: 0px;
                 right: 0px;
-                border: 1px solid rgb(234, 232, 232);
+                border: 1px solid rgb(221, 220, 220);
             }
 
             .left-wing{
-                background-color: aqua;
-                width: 200px;
                 display: flex;
                 flex-direction: row;
+                align-items: center;
             }
 
-            
+             .ham1{
+                margin-left: 20px;
+                margin-right: 12px;
+                height: 23px;
+            }
+
+            .y1{
+                margin-left: 15px;
+                margin-right: 10px;
+                height: 20px;
+            }
+
             .middle-wing{
-                background-color: rgb(76, 0, 255);
-                width: 450px;
-
+                display: flex;
+                align-items: center;
+                flex: 1;
+                max-width: 470px;
+                margin-left: 60px;
             }
 
+            .search{
+                box-shadow: inset 0px 1px 2px rgb(238, 238, 238);
+                font-size: 16px;
+                flex: 1;
+                height: 36px;
+                width: 0px;
+                min-width: 0px;
+                padding-left: 16px;
+                border: 1px solid gray;
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+                background-color: rgb(247, 247, 247);
+            }
+
+            .search-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid gray;
+                height: 40px;
+                width: 63px;
+                border-left: none;
+                border-top-right-radius: 2px;
+                border-bottom-right-radius: 2px;
+                margin-right: 8px;
+                cursor: pointer;
+            }
+
+            .search-i{
+                height: 26px;
+            }
+
+            /* .search-icon-voice{
+                border: none;
+                background-color: rgb(247, 247, 247);
+                border-radius: 50px;
+                height: 40px;
+                margin-top: 4px;
+            } */
+
+            .search-icon-voice{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid gray;
+                height: 40px;
+                width: 63px;
+                margin-right: 8px;
+                cursor: pointer;
+                border-radius: 25px;
+            }
 
             .right-wing{
                 background-color: rgb(255, 255, 0);
@@ -68,12 +132,19 @@
         <div class="shiii">
             <div class="head-bar">
                 <div class="left-wing">
-                    <img src="../../weidgt/hamburger-menu.svg">
-                    <img src="../../weidgt/youtube-logo.svg">
+                    <img class="ham1" src="../../weidgt/hamburger-menu.svg">
+                    <img class="y1" src="../../weidgt/youtube-logo.svg">
                 </div>
 
                 <div class="middle-wing">
+                    <input class="search" type="text" placeholder="Search">
+                    <button class="search-icon">
+                        <img class="search-i" src="../../weidgt/search.svg">
+                    </button>
 
+                    <button class="search-icon-voice">
+                        <img class="search-i-v" src="../../weidgt/voice-search-icon.svg">
+                    </button>
                 </div>
 
                 <div class="right-wing">
