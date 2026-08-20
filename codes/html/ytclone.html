@@ -6,13 +6,102 @@
         <link rel="stylesheet" href="../css/videogrid.css">
         <link rel="stylesheet" href="../css/genral.css">
         <style>
+            .head-bar{
+                justify-content: space-between;
+                position: fixed;
+                display: flex;
+                flex-direction: row;
+                height: 57px;
+                background-color: white;
+                z-index: 100;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                border: 1px solid rgb(234, 232, 232);
+            }
 
+            .left-wing{
+                background-color: aqua;
+                width: 200px;
+                display: flex;
+                flex-direction: row;
+            }
+
+            
+            .middle-wing{
+                background-color: rgb(76, 0, 255);
+                width: 450px;
+
+            }
+
+
+            .right-wing{
+                background-color: rgb(255, 255, 0);
+                width: 200px;
+
+            }
+
+            .side-bar{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+                background-color: white;
+                left: 0px;
+                top:56px;
+                bottom: 0px;
+                position: fixed;
+                width: 72px;
+                padding-top: 4px;
+                z-index: 200;
+            }
+
+            .square{
+                background-color: gray;
+
+            }
         </style>    
     </head>
 
     <body>
     <main>
-        <div class="papa">
+        <div class="shiii">
+            <div class="head-bar">
+                <div class="left-wing">
+                    <img src="../../weidgt/hamburger-menu.svg">
+                    <img src="../../weidgt/youtube-logo.svg">
+                </div>
+
+                <div class="middle-wing">
+
+                </div>
+
+                <div class="right-wing">
+
+                </div>
+
+            <nav class="side-bar">
+                <div class="square">
+                    <img class="square1"  src="../../weidgt/home.svg">
+                </div>
+                <div class="square">
+                    <img class="square1"  src="../../weidgt/home.svg">
+                </div>
+                <div class="square">
+                    <img class="square1"  src="../../weidgt/home.svg">
+                </div>
+                <div class="square">
+                    <img class="square1"  src="../../weidgt/home.svg">
+                </div>
+                <div class="square">
+                    <img class="square1"  src="../../weidgt/home.svg">
+                </div>
+                <div class="square">
+                    <img class="square1"  src="../../weidgt/home.svg">
+                </div>
+            </nav>
+            </div>
+            <div class="papa">
             <div class="container">
                <div class="images">
                     <img class="img" src="../../yt thumbnail/thumbnail-1.webp">
@@ -276,6 +365,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </body>
     </main>
