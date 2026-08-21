@@ -1,6 +1,6 @@
             .papa{
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                /* grid-template-columns: 1fr 1fr 1fr 1fr; */
                 justify-items: stretch;
                 gap: 12px;
                 padding-top: 75px;
@@ -9,9 +9,25 @@
                 padding-bottom: 8px;
             }
 
+            @media (max-width: 750px) {
+                .papa{
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+
+            @media (min-width: 751px) and (max-width: 999px) {
+                .papa{
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+
+            @media (min-width: 1000px) {
+                .papa{
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+            }
+
             .container{
-                display: flex;
-                flex-direction: column;
                 box-sizing: border-box;
                 padding: 4px;
                 margin-bottom: 15px;
@@ -29,8 +45,6 @@
                 height: auto;
                 position: relative;
             }
-            
-            
 
             .profile-pic{
                 border-radius: 17px;
@@ -51,7 +65,6 @@
                 font-size: 12px;
                 margin-top:4px;
                 margin-bottom: 15px;
-                width: 264px;
                 height: 14.667px;
             }
 
