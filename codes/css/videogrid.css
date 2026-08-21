@@ -27,6 +27,7 @@
                 object-fit: cover;
                 width: 100%;
                 height: auto;
+                position: relative;
             }
             
             
@@ -58,4 +59,21 @@
                 margin: 0;
                 font-size: 14px;
                 font-weight: 600;
+            }
+
+            .images{
+                position: relative;
+            }
+
+            .timestamp{
+                position: absolute;
+                bottom: 11px;
+                right: 6px;
+                color: white;
+                background-color: black;
+                padding: 4px;
+                border-radius: 4px;
+                font-size: 12px;
+                font-weight: 600;
+                font-family: Arial ;
             }
