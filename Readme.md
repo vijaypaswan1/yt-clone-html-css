@@ -30,7 +30,11 @@ It helped me understand how different sections of a webpage can be structured an
 
 ### YouTube Clone
 
+<<<<<<< HEAD
 ![YouTube Clone Preview](../images/preview.png)
+=======
+![YouTube Clone Preview](images/preview.png)
+>>>>>>> 894ecfdc08a5bfd991ecc79f9e9cb99d60c9ed7f
 
 > **Note:** The interface is based on an older version of YouTube and was created for learning and practice purposes.
 
@@ -56,3 +60,7 @@ I'm a B.Tech Computer Science student currently learning web development and bui
 ---
 
 ⭐ More projects coming as I continue learning!
+<<<<<<< HEAD
+=======
+
+>>>>>>> 894ecfdc08a5bfd991ecc79f9e9cb99d60c9ed7f
